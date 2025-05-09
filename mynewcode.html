@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Divisions</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .red-box, .blue-box, .green-box {
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; /* Animation on hover */
+        }
+
+        .red-box {
+            background-color: red;
+        }
+
+        .blue-box {
+            background-color: blue;
+        }
+
+        .green-box {
+            background-color: green;
+        }
+
+        /* Hover effect */
+        .red-box:hover, .blue-box:hover, .green-box:hover {
+            transform: scale(1.05);
+        }
+
+        /* Form styling */
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        /* List styling */
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red-box">
+            <h2>Red Box</h2>
+            <p>This is a red box. It's inside a container.</p>
+        </div>
+        <div class="blue-box">
+            <h2>Blue Box</h2>
+            <p>This is a blue box. It's also inside a container.</p>
+        </div>
+        <div class="green-box">
+            <h2>Green Box</h2>
+            <p>This is a green box. Added for fun!</p>
+        </div>
+    </div>
+
+    <form>
+        <input type="text" placeholder="Enter your email">
+        <br>
+        <input type="submit" value="Subscribe">
+    </form>
+
+    <h3>Fruits List (Unordered)</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <h3>Fruits List (Ordered)</h3>
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ol>
+
+
+
+
+    <h1>Student grades</h1>
+    <table border="1">
+        <tr>
+            <td>Student name</td>
+            <td>Math grade</td>
+            <td>Science grade</td>
+            <td>English grade</td>
+
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>95</td>
+            <td>87</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>88</td>
+            <td>91</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobby" value="Coding"> Coding
+        <input type="checkbox" name="hobby" value="Music"> Music<br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+
+
+
+
+      <video controls width="300">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+      </audio>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+
+
+
+
+      <header>
+        <h1>My Website</h1>
+      </header>
+      <nav>
+        <a href="#">Home</a> | <a href="#">About</a>
+      </nav>
+      <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Intro to the website.</p>
+        </section>
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Related links</p>
+        </aside>
+
+      </main>
+      <footer>
+        <p>Copyright 2025</p>
+      </footer>
+
+
+
+
+      
+<h1>My Awesome Website</h1>
+<p>Welcome to my website, check out this cool image:</p>
+<img src="https://i.pinimg.com/originals/2b/f5/04/2bf50497f57ce04046a9ceb9ae1c4881.jpg" alt="https://wallpapercave.com/wp/wp5057935.jpg" width="200" height="150" align="right">
+<p>This image is aligned to the right and has a width of 200 pixels and height of 150 pixels</p>
+</body>
+</html>

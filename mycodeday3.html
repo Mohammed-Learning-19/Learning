@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-gray-100 text-center p-6">
+    <!-- Full-screen background with light gray, centered text, and padding -->
+    
+    <div class="bg-white p-6 rounded-lg shadow-md max-w-md mx-auto hover:shadow-xl transition-shadow duration-300">
+      <!--
+        This is a white box (card) with:
+        - padding inside (p-6)
+        - rounded corners (rounded-lg)
+        - a subtle shadow (shadow-md)
+        - a maximum width (max-w-md) for small screens
+        - horizontal auto margin (mx-auto) to center it
+        - hover effect to increase shadow (hover:shadow-xl)
+        - smooth transition on shadow change (transition-shadow duration-300)
+      -->
+  
+      <h1 class="text-2xl font-bold text-gray-800 mb-2 animate-fadeIn">
+        Hello!
+      </h1>
+      <!--
+        Heading with:
+        - large font size (text-2xl)
+        - bold text (font-bold)
+        - dark gray color (text-gray-800)
+        - bottom margin (mb-2)
+        - fade-in animation (animate-fadeIn defined below)
+      -->
+  
+      <p class="text-gray-600 mb-4">
+        Welcome to my simple responsive page.
+      </p>
+      <!--
+        Paragraph with:
+        - medium gray text (text-gray-600)
+        - bottom margin (mb-4)
+      -->
+  
+      <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-900 transition-colors">
+        Click Me
+      </button>
+      <!--
+        A button with:
+        - blue background (bg-blue-500)
+        - white text (text-white)
+        - horizontal & vertical padding (px-4 py-2)
+        - rounded corners (rounded)
+        - darker blue on hover (hover:bg-blue-600)
+        - smooth color change (transition-colors)
+      -->
+    </div>
+  
+    <!-- Custom animation for fade-in -->
+    <style>
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+  
+      .animate-fadeIn {
+        opacity: 0;                 /* Start hidden */
+        animation: fadeIn 1.5s ease-out forwards; /* Fade to visible */
+      }
+    </style>
+    
+  </body>
+  </html>
